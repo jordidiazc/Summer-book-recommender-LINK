@@ -51,7 +51,7 @@ if selected_genre_0 and selected_genre_0 != '-Choose the genre of your book-':
                 
                 if not beach_books.empty:
                     def display_book(book):
-                        st.markdown("<h3 style='color: #FF4500;'>Then we recommend a book with less than 300 pages and paperback book format</h3>", unsafe_allow_html=True)
+                        st.markdown("<h3 style='color: #FF4500;'>Then we recommend a book with less than 300 pages and paperback format</h3>", unsafe_allow_html=True)
                         st.write(f"**{book['title']}**")
                         st.write(f"by {book['author']}")
                         st.write(book['desc'])
